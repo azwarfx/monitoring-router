@@ -5,6 +5,8 @@
  */
 package monitoringrouter;
 
+import monitoringrouter.view.Ping;
+
 /**
  *
  * @author azwarazuhri
@@ -16,6 +18,8 @@ public class MainApp {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Ping buka = new Ping();
+        buka.setVisible(true);
     }
     
 }
